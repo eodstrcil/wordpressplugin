@@ -33,10 +33,10 @@
 - Upload files
 
 ## Requeriment
-- Add Bootstrap in your template
+- Add Bootstrap in your template. Add this code in you "functions.php" file
 
 ```PHP
-// Include Bootstrap CSS in you "functions.php" file
+// Include Bootstrap CSS
 function bootstrap_css() {
 	wp_enqueue_style( 'bootstrap_css', 
   					get_stylesheet_directory_uri() . '/css/bootstrap.min.css', 
