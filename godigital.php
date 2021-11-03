@@ -16,7 +16,8 @@ function agregar_ga() {
             jQuery("#fromTd").html(\'From<br><select name="currencyFrom" id="currencyFrom"><option select value="USD">USD</option><option value="EUR">EUR</option><option value="ARS">ARS</option><option value="RUB">RUB</option><option value="CAD">CAD</option></select>\');
             jQuery("#toTd").html(\'To<br><select name="currencyTo" id="currencyTo"><option value="USD">USD</option><option value="EUR">EUR</option><option selected value="ARS">ARS</option><option value="RUB">RUB</option><option value="CAD">CAD</option></select>\');
             jQuery("#btConvert").html(\'<input type="button" id="btConvert" value="Convert" onclick="reload();">\');
-            reload();
+			reload();
+            setInterval(reload,600000);
         });
 
         function reload(){
