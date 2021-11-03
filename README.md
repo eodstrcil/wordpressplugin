@@ -1,5 +1,5 @@
 # wordpressplugin
-A simple wordpress plugin
+A simple Wordpress plugin
 
 ## List of Activities
 
