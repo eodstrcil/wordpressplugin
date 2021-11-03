@@ -36,6 +36,7 @@
 - Add Bootstrap in your template
 
 ```PHP
+// Include Bootstrap CSS in you "functions.php" file
 function bootstrap_css() {
 	wp_enqueue_style( 'bootstrap_css', 
   					get_stylesheet_directory_uri() . '/css/bootstrap.min.css', 
@@ -45,7 +46,7 @@ function bootstrap_css() {
 }
 add_action( 'wp_enqueue_scripts', 'bootstrap_css');
 
-// Incluir Bootstrap JS
+// Include Bootstrap JS
 function bootstrap_js() {
 	wp_enqueue_script( 'bootstrap_js', 
   					get_stylesheet_directory_uri() . '/js/bootstrap.min.js', 
